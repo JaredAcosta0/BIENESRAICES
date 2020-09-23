@@ -14,9 +14,44 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
 .contenedor{
     max-width: 1100px;
     margin: 0 auto;
+}
+
+/*Utilidades*/
+
+.cambio-seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+
+.fw-300{
+    font-weight: 300;
 }
 
 /*Estilos del Header*/
@@ -62,9 +97,7 @@ body{
 }
 
 /*Contenedor de iconos*/
-.contenedor h2{
-    text-align: center;
-}
+
 
 .iconos-index{
     display: flex;
@@ -127,8 +160,6 @@ body{
     padding-bottom: 2rem;
 }
 
-}
-
 footer{
     background-color: #404040;
     background-position: center;
@@ -138,3 +169,17 @@ footer{
     min-width: 45rem;
 }
 
+/*Seccion principal etiquetas*/
+.contenedor-etiquetas{
+    display: flex;
+    justify-content: space-between;
+}
+.etiqueta{
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+}
+
+.texto-etiqueta{
+    padding: 2rem;
+}
