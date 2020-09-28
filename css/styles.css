@@ -54,6 +54,20 @@ h4{
     font-weight: 300;
 }
 
+.boton{
+    color: white;
+    padding: 0.8rem 3rem;
+    text-decoration: none;
+}
+
+.boton-amarillo{
+    background-color: orange; /* orange*/
+}
+
+.boton-verde{
+    background-color: green; /* Green */
+}
+
 /*Estilos del Header*/
 .encabezado.inicio{
     background-image: url(../header.jpg);
@@ -182,4 +196,17 @@ footer{
 
 .texto-etiqueta{
     padding: 2rem;
+}
+
+.texto-etiqueta h3{
+    margin: 0;
+}
+
+.texto-etiqueta p{
+    line-height: 1.5;
+}
+
+.precio{
+    color: #71B100;
+    font-weight: 800;
 }
